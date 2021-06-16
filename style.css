@@ -15,8 +15,29 @@ main {
 
 #evaluation-form {
   display: flex;
-  flex-direction: column;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: space-between;
   width: 675px;
+  height: 150px;
+}
+
+#input-name {
+    width: 50%;
+    height: 50%;
+    max-height: 50px;
+}
+
+#input-lastname {
+    width: 50%;
+    height: 50%;
+    max-height: 50px;
+}
+
+#input-email {
+    width: 50%;
+    height: 50%;
+    max-height: 50px;
 }
 
 #trybewarts-forms-logo {
