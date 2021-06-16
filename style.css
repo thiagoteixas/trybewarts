@@ -23,21 +23,21 @@ main {
 }
 
 #input-name {
-    width: 50%;
-    height: 50%;
-    max-height: 50px;
+  width: 50%;
+  height: 50%;
+  max-height: 50px;
 }
 
 #input-lastname {
-    width: 50%;
-    height: 50%;
-    max-height: 50px;
+  width: 50%;
+  height: 50%;
+  max-height: 50px;
 }
 
 #input-email {
-    width: 50%;
-    height: 50%;
-    max-height: 50px;
+  width: 50%;
+  height: 50%;
+  max-height: 50px;
 }
 
 #trybewarts-forms-logo {
