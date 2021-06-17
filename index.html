@@ -29,9 +29,10 @@
                 <option id="pytherina-house" value="Pytherina">Pytherina</option>
             </select>
         </form>
-        <!--Label family-->
         <section>
-            <label id="label-family">Qual sua família?</label>
+            <label id="label-family">
+                <h2>Qual sua família?</h2>
+            </label>
             <div>
                 <label for="frontend">Frontend</label>
                 <input type="radio" name="family" id="frontend" value="Frontend">
@@ -42,8 +43,25 @@
             </div>
             <div>
                 <label for="fullstack">FullStack</label>
-            <input type="radio" name="family" id="fullstack" value="FullStack">
+                <input type="radio" name="family" id="fullstack" value="FullStack">
             </div>
+        </section>
+        <section>
+            <label id="label-content">
+                <h2>Qual conteúdo você está com mais vontade de aprender?</h2>
+            </label>
+            <label for="hofs">HoFs</label>
+            <input class="subject" type="checkbox" name="subject" id="hofs" value="HoFs">
+            <label for="jest">Jest</label>
+            <input class="subject" type="checkbox" name="subject" id="jest" value="Jest">
+            <label for="promises">Promises</label>
+            <input class="subject" type="checkbox" name="subject" id="promises" value="Promises">
+            <label for="react">React</label>
+            <input class="subject" type="checkbox" name="subject" id="react" value="React">
+            <label for="sql">SQL</label>
+            <input class="subject" type="checkbox" name="subject" id="sql" value="SQL">
+            <label for="python">Python</label>
+            <input class="subject" type="checkbox" name="subject" id="python" value="Python">
         </section>
         <img id="trybewarts-forms-logo" src="images/trybewarts-colored.svg" alt="">
     </main>

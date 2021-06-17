@@ -55,7 +55,6 @@ main {
   flex-flow: column wrap;
 }
 
-/* .radio-button label {
+.subject {
   display: inline-block;
-  width: 100%;
-} */
+}
