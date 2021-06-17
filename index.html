@@ -22,32 +22,29 @@
             <input type="text" name="input-name" id="input-name" placeholder="Nome">
             <input type="text" name="input-email" id="input-email" placeholder="Email">
             <input type="text" name="input-lastname" id="input-lastname" placeholder="Sobrenome">
+            <select name="house" id="house">
+                <option id="gitnoria-house" value="Gitnória">Gitnória</option>
+                <option id="reactpuff-house" value="Reactpuff">Reactpuff</option>
+                <option id="corvinode-house" value="Corvinode">Corvinode</option>
+                <option id="pytherina-house" value="Pytherina">Pytherina</option>
+            </select>
         </form>
-        <select name="house" id="house">
-            <option id="gitnoria-house" value="Gitnória">Gitnória</option>
-            <option id="reactpuff-house" value="Reactpuff">Reactpuff</option>
-            <option id="corvinode-house" value="Corvinode">Corvinode</option>
-            <option id="pytherina-house" value="Pytherina">Pytherina</option>
-        </select>
         <!--Label family-->
-        <label id="label-family">Qual sua família?
-            <br>
-            <label for="frontend">
-                Frontend
+        <section>
+            <label id="label-family">Qual sua família?</label>
+            <div>
+                <label for="frontend">Frontend</label>
                 <input type="radio" name="family" id="frontend" value="Frontend">
-                
-            </label>
-            <label for="backend">
-                Backend
+            </div>
+            <div>
+                <label for="backend">Backend</label>
                 <input type="radio" name="family" id="backend" value="Backend">
-                
-            </label>
-            <label for="fullstack">
-                FullStack
-                <input type="radio" name="family" id="fullstack" value="FullStack">
-                
-            </label>
-        </label>
+            </div>
+            <div>
+                <label for="fullstack">FullStack</label>
+            <input type="radio" name="family" id="fullstack" value="FullStack">
+            </div>
+        </section>
         <img id="trybewarts-forms-logo" src="images/trybewarts-colored.svg" alt="">
     </main>
     <script src="script.js"></script>
