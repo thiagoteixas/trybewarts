@@ -4,8 +4,13 @@
   justify-content: space-between;
 }
 
+#trybewarts-header-title {
+  font-family: 'Viaoda Libre', cursive;
+  font-size: 60px;
+}
+
 .trybewarts-header-logo {
-  max-height: 100px;
+  max-height: 150px;
 }
 
 .trybewarts-login {
@@ -15,6 +20,7 @@
 
 main {
   display: flex;
+  flex-direction: column;
 }
 
 #evaluation-form {
@@ -57,4 +63,8 @@ main {
 
 .subject {
   display: inline-block;
+}
+
+.trybewarts-rating {
+  justify-content: flex-end;
 }
