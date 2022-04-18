@@ -1,9 +1,9 @@
 {
+  "homepage": "https://thiagoteixas.github.io/trybewarts",
   "name": "sd-0x-project-trybewarts-rubric",
   "version": "1.0.0",
   "description": "Ao iniciar este projeto, você concorda com as diretrizes do Código de Ética e Conduta e do Manual da Pessoa Estudante da Trybe.",
   "main": "script.js",
-  "homepage": "https://thiagoteixas.github.io/trybewarts",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
