@@ -14,3 +14,9 @@ Dentre essas tecnologias, fiz uso de HTML Forms e Flexbox, além de eventos de J
 ## Executando Aplicação
 
 Após a clonagem da pasta, abrir o arquivo index.html
+
+Para conseguir a mensagem de login correto, deve-se inserir:
+```
+login: tryber@teste.com
+senha: 123456
+```
