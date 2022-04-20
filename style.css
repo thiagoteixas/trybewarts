@@ -2,6 +2,7 @@ main {
   display: flex;
   flex-direction: row;
   padding: 8px;
+  padding-top: 20px;
 }
 
 body {
@@ -40,6 +41,7 @@ section {
 #trybewarts-header-title {
   font-family: Viaoda Libre, cursive;
   font-size: 60px;
+  color: white;
 }
 
 .trybewarts-header-logo {
@@ -86,7 +88,9 @@ section {
 
 #house {
   display: flex;
-  height: 50px;
+  min-height: 50px;
+  width: 45%;
+  padding: 1px 2px;
 }
 
 #label-family {
